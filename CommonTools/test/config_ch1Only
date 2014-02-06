@@ -1,8 +1,0 @@
-[Global]
-par1Name = dk
-par1PlotName = #Delta#kappa
-par2Name = lam
-par2PlotName = #lambda
-
-[ch1]
-bkg_shape_syst=background_ch1boosted_backshape,background_ch1xboosted_backshape
