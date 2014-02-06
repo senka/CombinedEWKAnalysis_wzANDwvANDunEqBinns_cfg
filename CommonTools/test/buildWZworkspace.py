@@ -36,8 +36,6 @@ norm_bkg = -1
 norm_obs = -1
 
 fit_sections = cfg.sections()
-fit_sections.remove('Global') #don't need to iterate over the global configuration
-
 
 basepath = '%s/src/CombinedEWKAnalysis/CommonTools/data/WV_semileptonic'%os.environ['CMSSW_BASE']
 
