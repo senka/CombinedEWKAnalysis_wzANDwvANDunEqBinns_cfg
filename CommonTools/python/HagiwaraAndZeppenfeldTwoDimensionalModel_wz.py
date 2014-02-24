@@ -13,6 +13,7 @@ class HagiwaraAndZeppenfeldTwoDimensionalModel_wz(AnomalousCouplingModel):
         self.channels  = ['WV_atgc_semileptonic']
 #        self.lepchannels  = ['ch1','ch2','ch3','ch4']
         self.lepchannels  = ['ch1','ch2']
+#        self.lepchannels  = ['ch1','ch2']
         self.pois      =  ['dkg','dg1','lZ']
         self.mode      = mode
         self.anomCoupSearchWindows = {'dkg':['-1.5e-1','1.5e-1'],
